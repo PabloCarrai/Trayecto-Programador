@@ -36,5 +36,40 @@ Cuando tengo una parte de la informacion de un objeto es informacion(caracterist
 La informacion es un mensaje que recibis y tenes una accion. Fuego, en un libro. La nota es un dato. 
 
 https://concepto.de/informacion/
+https://concepto.de/dato/
 
+problema del cual se parte
+El algoritmos intenta buscar una posible solucion
+El algoritmos tiene que tener un principio y un final
+En el medio los pasos/sucesos para solucionar el problema
+Luego esta la programacion, agarrar los pasos anteriores y generar un programa. 
 
+Ejemplo:
+Como hago una pizza?
+1) necesito harina, agua, levadura y sal. 
+2) Uno harina con levadura y sal y vierto agua, hasta generar una maza
+que amazo, teniendo el bollo lo dejo reposar por un tiempo. 
+3)Se corta la maza en porciones de acuerdo a las fuentes. 
+4)Se amaza y se estira hasta darle forma de acuerdo a la fuente. 
+5)La cocino por unos 10 minutos a 180 grados, le agrego una salsa
+lo vuelvo a cocinar y le agrego el queso. 
+
+Esto es un algoritmos
+
+peudocodigo
+Instrucciones escritas para resolver un algoritmo de forma fisica, mostrando sus pasos y describiendolos. 
+
+Inicio nombredelprograma
+1- Verificar el celular este prendido
+2- Desbloquear el celular. 
+3- Verificar que este instalado la aplicacion de Youtube
+4- Abrir la aplicacion de Youtube. 
+5- Utilizar el buscador para la cancion "sweet child of mine" de los Guns
+6- Seleccionar la cancion que mas me gusta.
+7- Reproducirlo
+Fin
+
+Tarea:
+A) Realizar un pseudocódigo que permita escuchar un tema en spotify.
+B) Realizar un pseudocódigo que permita escribir una canción.
+C) Realizar un pseudocódigo que permita hacer una torta de chocolate.
