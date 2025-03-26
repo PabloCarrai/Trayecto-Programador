@@ -1,0 +1,23 @@
+# Clase 2
+# 25/3/25
+
+Software, medio para comunicarse con el hardware.
+Informacion, conjunto de datos.
+Dato, es una caracteristica sobre un objeto.
+Ejemplo la vaca lola, es un dato. 
+Si tengo que procesar el dato es informacion. 
+El dato tiene que ser relevante. 
+Tiende a hablar de algo en aspecto a caracteristica. 
+Programador, de software. Desarrollador de codigo.
+El programador, se divide en 3 aspectos. 
+Front, Back y Full stack.
+Pseudocodigo. Diagrama con pasos escritos que siguen la logica de un programa para resolver de manera escrita en lenguaje coloquial. Un problema. 
+Diagrama de flujo, como tal. Es un diagrama al estilo cuadro conceptual. Plasmo lo escrito a nivel grafico. El diagrama permite pasar a la programacion. Esto es anterior a programar. 
+ 
+La variable suele guardar un dato. Y se llama a esa variable por su numero dandole el valor del dato que guarda.
+
+Tarea:
+1) Un pseudocodigo para realizar la suma de dos numeros ingresados por el usuario y mostrar el resultado de la operación por pantalla
+2) Un pseudocodigo para realizar la resta de dos numeros ingresados por el usuario y mostrar el resultado de la operación por pantalla
+3) Un pseudocodigo para realizar la multiplicación de dos numeros ingresados por el usuario y mostrar el resultado de la operación por pantalla
+4) Un pseudocodigo para realizar la división de dos numeros ingresados por el usuario y mostrar el resultado de la operación por pantalla
