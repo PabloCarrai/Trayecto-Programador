@@ -1,0 +1,39 @@
+#	Clase 3
+#	26/3/25
+
+#	Basado en los ejercicios
+Los numeros ingresados son datos
+Las operaciones son informacion. 
+
+La computadora utiliza el lenguaje binario(1,0).
+Ambos valores representan un dato. Encendido o apagado.
+Codigo Binario.Cada codigo es 1 bit. Formado por 0 o 1.
+8bits
+10100100
+Representan la menor escala de medida en almacenamiento. 
+8bits = 1Byte
+# el arroba
+@
+# tiene codigo ascii
+1000000
+
+La tabla ascii tiene la representacion de cara caracter a binario. 
+Tabla de verdad o prueba de escritorio
+
+Ejercicios
+https://docs.google.com/document/d/1SkX_96ZTLA6oK-tMOZ1esMysJ5x-h0t8WAhC_stu5Kc/edit?pli=1&tab=t.0
+
+#	Instalar windows con office 2021 visual basic
+Private_sub
+End_sub
+
+Sub Macro1()
+MsgBox("Hola Mundo")
+MsgBox "Hola Mundo", 48
+REM Esto es mi primer macro en word 
+End Sub
+
+#	valores de iconos del msgbox
+https://learn.microsoft.com/es-es/office/vba/language/reference/user-interface-help/msgbox-function
+
+Buscar que es un macro
