@@ -1,0 +1,57 @@
+#	Clase 4
+#	1/4/25
+
+El procesador, es el cerebro de la computadora. 
+Es el que realiza todas las tareas, y ejecuta todas las aplicaciones.
+La tecnologia para estos dispositivos se encuentra cambiando continuamente. 
+El software que se desarrolla esta usando un espacio de la memoria.
+El administrador de tarea nos permite visualizar los recursos que cada aplicacion usa. 
+Tanto memoria ram como procesamiento. 
+
+Con word 2021
+1) Nuevo archivo documento en blanco.
+
+Crear macros en word. 
+Se puede o grabar o programar.
+Para programar hay que habilitar la solapa programador
+En el apartado codigo hay dos opciones
+o visual basic o macro
+Si presionamos sobre macro aparece el nombre del macro.
+Crear con un nombre de macro. 
+Clase1
+
+Sub Clase1()
+Rem soy un comentario feliz
+MsgBox("Hola Pablo") : Rem MsgBox sirve para mostrar algo en pantalla
+MsgBox ("Hola Valeria"),48 : Rem el 48 es de alerta
+MsgBox "Hola Lautaro",16
+End Sub
+
+presiono el boton play para ejecutar el codigo
+
+Para habilitar las macros.
+Tengo que ir a archivo guardar como donde lo quiero guardar
+y guardo como documento habilitado con macro
+
+Clase2
+Sub Clase2()
+Dim nombre As String 
+nombre = InputBox("Ingresa tu Nombre"): Rem InputBox sirve para que el usuario ingrese algo
+MsgBox "El nombre que recibi es:"+nombre
+End Sub
+
+Ejercicio
+Crear un programa(macro) que permita ingresar el nombre, el apellido, el dni y luego mostrarlo por alerta. 
+
+Sub Clase3()
+Dim nombre As String
+Dim apellido As String
+Dim dni As String 
+nombre = InputBox("Ingrese su nombre:")
+apellido = InputBox("Ingrese su apellido")
+dni = InputBox("Ingrese su dni")
+MsgBox ("Su nombre"+nombre+" Apellido"+apellido+" Dni"+dni),16
+End Sub
+
+hacer un salto de linea con 
+Chr(10)
