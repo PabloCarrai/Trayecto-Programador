@@ -2,4 +2,41 @@
 #	9/4/25
 
 
+Tablas de verdad. 
+Variable preposicional. 
+Se analiza una prueba logica. 
+Dentro del condicional hay una prueba logica.
+Compuesta por variables, pruebas logicas. 
+Una sola prueba logica, tiene verdadero o falso. 
+Si dos condiciones se cumplen, da por verdad. 
+al haber dos variables logicas y una no se cumple es falso.
+
+v	v	v
+v	f	f
+v	f	v
+f	f	f	
+
+Esto se traslada a binario. 
+Si se cumple es 1 sino es 0
+
+p puede ser V o F nada mas
+y es conjuncion
+o disyuncion
+
+p q pyq
+v v v
+v f f
+f v f
+f f f
+
+p q r pyq qyr
+v v v  v
+v v f  f
+v f v  f
+v f f  f
+f v v  f
+f v f  f
+f f v  f
+f f f  f
+
 
