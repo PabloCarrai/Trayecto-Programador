@@ -1,0 +1,26 @@
+#	Clase 5
+#	08/05/25
+
+
+1 programa puede estar compuesto por 1 o 
+mas macros. La idea es sobre un solo archivo.
+
+Escribir en pseint = MsgBox
+
+Escribir "Lautaro"  (Salida por pantalla)
+MsgBox "Lautaro" (Salida por pantalla)
+
+Puedo tener muchas ordenes iguales con diferente mensajes
+
+Para ingresar puedo usar 
+Leer variable
+
+Mostrar eso seria
+Escribir variable
+
+Leer = variables = Dim variable As String
+InputBox = Ingresa datos InputBox "Ingrese un valor"
+MsgBox variable
+Str(variable)	Transforma a string una variable
+
+
