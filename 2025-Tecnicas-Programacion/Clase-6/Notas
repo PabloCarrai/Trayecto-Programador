@@ -39,4 +39,22 @@ f v f  f
 f f v  f
 f f f  f
 
+Como se tienen que declarar las variables. 
+no pueden arrancar con un espacio vacio
+ variable
+no se puede usar espacio en su nombre
+va riable
+se usa guion o guion bajo para separar
+numero_mayor
+No pueden arrancar con simbolos especiales. 
+dependiendo el lenguaje tienen el camelcase
+NumeroMayor
+NumeroMaYor	Esto es camelCase
+
+tipos de datos en basic
+
+
+https://learn.microsoft.com/es-es/dotnet/visual-basic/language-reference/data-types/byte-data-type
+
+Mod es modulo divide un numero y te da el resto
 
