@@ -1,0 +1,31 @@
+#	Clase 7
+#	15/4/25
+
+
+Ejercicio.
+Diagramar un programa que procese las personas mayores a 18 y muestre "puede votar" y los menores a 16 "no pueden votar". En todos los demas casos "opcion a votar"
+
+Ejercicio1.
+Diagramar un programa que procese los numeros mayores a 100 y muestre un cartel "Número válido" en cualquier otro caso "Ingrese nuevamente un numero"
+
+Ejercicio2
+Diagramar un programa que procese el sexo de una persona, si es M mostrar "Es masculino" si es F mostrar "Es femenino" en cualquier otro caso mostrar "No se decide"
+
+Ejercicio3
+Diagramar un programa que muestre "Aprobado" si la nota es mayor a 7. "Promocionado" si la nota es mayor a 9.  "Diciembre" si la nota es mayor a 4 y menor a 7.
+"Febrero" si la nota es menor a 4.
+
+Ejercicio4
+Procesar 10 numeros y mostrar por pantalla los que son divisibles por 2
+
+El ciclo para(for)es un ciclo exacto
+El mientras(while) es algo reiterativo por un final marcado por el usuario. No tiene un numero finito. 
+
+El ciclo exacto sabes cuando arranca y cuando termina.
+
+Ciclo repetitivo o iterativo
+El while hace lo que tiene mientras se cumpla una condicion. 
+
+Los ciclos exactos pueden ir de uno en uno o dos en dos o tres en tres o pueden ser negativos. Pero son establecidos hacia adelante. Se puede hacer regresivamente. 
+
+El ciclo for es este. 
