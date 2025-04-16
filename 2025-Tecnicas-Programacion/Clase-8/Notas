@@ -1,0 +1,17 @@
+#	Clase 8
+#	16/4/25
+
+
+Con los ciclos la idea es evitar el mal uso de generar la misma codificacion. No repetir codigo. Ahorran el uso de los recursos. 
+
+La idea tambien es optimizar el codigo y evitar la repeticion. 
+
+Ejercicio
+Realizar un algoritmo que procese y muestre 20 nombres.
+Realizar un algoritmo que procese y muestre 15 productos.
+Realizar un algoritmo que procese las letras del abecedario, sabiendo que son 27 letras en total.
+Realizar un algoritmo que procese 30 productos si el precio es mayor a 5000 Mostrar su Stock si no Mostrar su CodigoProducto
+Codificar un boton que procese un lote de registros de 20 personas y analizar si son mayores de edad, sabiendo que la mayoria de edad es a partir de los 18. Mostra un cartel diciendo "Sos mayor de edad" si se cumple, si no "Segui creciendo"
+
+Acumulador, es para ir sumandole numeros y sacar un total
+
