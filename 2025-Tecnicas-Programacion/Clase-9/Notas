@@ -1,0 +1,29 @@
+#	Clase 9
+#	22/4/25
+
+Va en la evaluacion:
+algoritmos, programacion. pseudocodigo, codificacion parte logica. Como introducir un dato, como hacer que el usuario ingrese, mostrar el dato del usuario. Condicionales simples, anidados compuesto y multiples. Ciclos. for y while.
+
+El ciclo es algo que empieza, se repite y termina. Hay distintos tipos de ciclos. Para(for) while(mientras) mientras que(do while). Son de naturaleza ciclica. Se repiten. El para(for) es el ciclo conocido como ciclo exacto(sabes cuando arranca y termina). Se usa cuando se sabe de antemano la informacion de las veces a repetir el bucle. Mientras(while) hacer mientras(dowhile) son repetitivos(reiterativo) no sabes cuando va a parar, no sabes cuando. Cuando se cumple una condicion o el usuario lo desea se termina. 
+
+Para i=1 hasta 100 con paso 1 hacer
+escribir numero i
+fin para
+
+Ejercicio
+Realizar un pseudocódigo que permita ingresar 10 letras y mostrar las que sean vocales
+
+El acumulador funciona de la siguiente forma. 
+ejerciciodos
+
+contador puro es cuando cuenta de 1 en 1
+acumulador suma o cuenta de a numeros variables
+
+
+Ejercicio
+Realizar un pseudocodigo que permita mostrar el total de personas mayores a 18 y la cantidad de personas de sexo femenino, en 12 personas.
+
+Ejercicio
+Realizar un pseudocódigo que permita ingresar letras mientras que sean distintas a la letra "A". Mostrar la cantidad de letras ingresadas
+
+
