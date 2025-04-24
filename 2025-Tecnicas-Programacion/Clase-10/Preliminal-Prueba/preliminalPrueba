@@ -1,0 +1,38 @@
+Evaluación
+
+¿Qué es un ciclo? 
+Es una estructura que permite repetir un bloque de pasos una cantidad de veces establecida.
+Es una estructura que permite repetir un bloque de pasos una cierta cantidad de veces.
+Es una estructura que permite repetir un bloque de pasos mientras se cumpla una condición.
+	(Las tres son validas)
+
+Codificar un programa en Basic que permita ingresar 20 personas, saber y mostrar el promedio de edad y la cantidad de personas de sexo femenino
+
+¿Qué ciclo funciona para mostrar los primeros 100 números pares?
+Para I=2 Hasta 100 Paso 2 Hacer Escribir "Los números son:",I 		  (Este esta bien)
+I=2 Mientras I<=100 Hacer Escribir "Los números pares son:",i I<-I+2  (Este esta mal la i no es igual a I)
+Para I=100 Hasta 2 Paso -2 Hacer Escribir "Los números pares son:",I  (Esta bien pero desde 100 a 2)
+
+¿Qué es una variable? 
+Es un dato que se guarda provisoriamente en la memoria ram. (Es este)
+Es un dato que se guarda provisoriamente en el procesador.
+Es un dato que se guarda provisoriamente en la memoria rom.
+
+¿Qué código sirve para contar las personas mayores a 17? *
+If (edad>17) Then MsgBox("Es mayor") c=c+1 EndIf   (Este es el correcto)
+If (edad>17) Them MsgBox("Es mayor) c=c+1 EndIf
+If (edad>17) Then MsgBox("Es mayor) c=c+1 EndIf
+
+¿Qué es un algoritmo? 
+Es una estructura que intenta resolver un problema inicial.
+Es una estructura de serie de pasos a seguir para resolver un problema inicial.
+Es una estructura que intenta resolver un problema inicial sin importar la cantidad de pasos. (Es este)
+
+Realizar un pseudocódigo que permita ingresar 20 productos, mostrar la cantidad de productos cuyo precio sea mayor a 1500.
+
+¿Qué condicional funciona para los mayores a 18? 
+Si (Edad>18) (Es este)
+Si (Edad<18)
+Si (Edad>=18)
+
+Codificar un programa en Basic que permita ingresar 20 productos, mostrar la cantidad de productos cuyo precio sea mayor a 1500.
