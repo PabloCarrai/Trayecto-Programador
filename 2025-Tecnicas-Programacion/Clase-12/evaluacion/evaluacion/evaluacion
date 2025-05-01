@@ -1,0 +1,69 @@
+Parcial Teórico Práctico N° 1
+
+Evaluación N° 1 del trayecto programador para el centro de formación profesional N° 22
+
+Pregunta 1
+¿Qué es un algoritmo? 
+		Es una estructura que permite traducir códigos.
+		Es una estructura que permite implementar programación.
+		Es instrucciones a seguir para resolver un problema.	(Es esta)
+		Es instrucciones a seguir para resolver un problema filosófico.			
+Pregunta 2
+¿Para que sirven los condicionales? *
+		Para realizar una consulta estadística.
+		Para realizar una condición.
+		Para realizar un analisís de datos.
+		Para realizar una comparación.	(Es esta)
+Pregunta 3
+Analizar las siguientes estructuras y marcar cual pertenece a un condicional anidado. *
+Para I=1 Hasta 20 Hacer ... Fin ParaG
+		Para I=1 Hasta 20 Hacer ... Fin ParaG
+Para I<1 Hasta 20 Hacer ... Fin Para
+		Para I<1 Hasta 20 Hacer ... Fin Para		(Es esta)
+Para I=20 Hasta 20 Hacer ... Fin Para
+		Para I=20 Hasta 20 Hacer ... Fin Para
+Pregunta 4
+Qué diferencia hay entre hardware y software *
+		El hardware es el usuario y el software lo físico.
+		El software es humano y el hardware es lo físico.
+		El hardware es humano y el software lo físico.
+		El hardware es lo físico y el software la comunicación con el humano. 	(Es esta)
+Pregunta 5
+¿Qué es una tabla de verdad? *
+		Es la tabla de verdad de Pablo.
+		Es la tabla de verdad de Lautaro.
+		Es la tabla de verdad de Valeria.
+		Es la tabla de verdad del condicional. 	(Es esta)
+
+
+Parcial Práctico N° 1
+
+Realizar un pseudocódigo que permita mostrar el nombre, apellido, calcular y mostrar la edad de una persona. *
+Ejercicio1.png
+
+Pregunta 7
+Realizar un pseudocódigo que permita ingresar 20 personas y mostrar su dni y el género. *
+Ejercicio-2.png
+
+Pregunta 8
+Codificar un programa que permita ingresar 10 alumnos y saber: si aprobo con nota >= 7 y si desaprobó con nota <=4 *
+Ejercicio3.png
+
+pregunta 9
+Codificar un programa que permita ingresar 20 personas y saber cuantas son de genero masculino y cuantas menores a 18 años *
+Ejercicio-4.png
+
+Pregunta 10
+Codificar un programa que permita ingresar 20 personas y saber el promedio de edad y la cantidad de personas mayores a 60 años. *
+Ejercicio-5.png
+
+Preguntas Extras
+Realizar un pseudocódigo que permita mostrar el precio, nombre de un producto.
+Extra1.png
+
+Realizar un pseudocódigo que permita mostrar 20 productos con su numero de serie, stock y precio
+Extra-2.png
+
+codificar un programa que permita ingresar números, y el que no debe procesarse es el 0. Mostrar la suma, la división y la multiplicación entre dos números ingresados. *
+Extra-3.png
+	
