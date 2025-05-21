@@ -1,0 +1,18 @@
+#	Clase 16
+#	20/5/25
+
+
+El proyecto a presentar, tiene que tener una presentacion.
+Luego hay que mostrar el programa, su funcionamiento.
+Vamos a recibir preguntas sobre el programa en si. 
+
+Las funciones, son una especie de atajo. 
+Al programar se realiza un bloque de codigo, que puede repetirse. 
+A lo largo de la estructura de un programa. Puede haber muchas lineas de codigo. 
+Al repetirse ciertas acciones y evitar esto se usa las funciones. 
+Las funciones como tal no solo sirve para evitar repetir bloque de codigo. 
+Sino para implementar acciones repetidas. Evitar repetir un bloque de codigo. 
+
+Es una estructura de codigo, que esta pensado para reutilizarse en diferentes momentos del programa. 
+No sirve que las funciones sean muy grandes. La idea es simplificar. 
+Resolver pequeñas partes de codigo. 
