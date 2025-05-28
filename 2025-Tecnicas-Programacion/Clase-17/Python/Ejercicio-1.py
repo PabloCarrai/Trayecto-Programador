@@ -20,7 +20,7 @@ def division(n, n1, n2):
     if (n == 0 or n1 == 0 or n2 == 0):
         return f"no se puede dividir por 0 "
     else:
-        return f"La division entre {n} y {n1} es {n/n1/n2} "
+        return f"La division entre {n} y {n1} y {n2} es {n/n1/n2} "
 
 
 def operacion():
