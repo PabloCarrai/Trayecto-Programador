@@ -1,0 +1,23 @@
+#Codificar un programa en python que ingrese los tres lados de un triángulo, analizar y mostrar que tipo de triángulo es: escaleno (todos los lados distintos) , equilátero (todos los lados iguales), iscóceles (dos lados iguales y uno distinto)
+print("╔════════════════╗")
+print("║ Triángulos 2.0 ║")
+print("╚════════════════╝")
+print("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-")
+lado1 = int(input("* Ingrese el primer lado del triángulo: "))
+print("+")
+lado2 = int(input("* Ingrese el segundo lado del triángulo: "))
+print("+")
+lado3 = int(input("* ingrese el tercer lado del triángulo: "))
+print("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-")
+if(lado1!=lado2 and lado1!=lado3 and lado2!=lado3):
+    print("╔════════════════════╗")
+    print("║ Triángulo Escaleno ║")
+    print("╚════════════════════╝")
+elif(lado1==lado2 and lado2==lado3):
+    print("╔══════════════════════╗")
+    print("║ Triángulo equilatero ║")
+    print("╚══════════════════════╝")
+else:
+    print("╔═════════════════════╗")
+    print("║ Triángulo iscóseles ║")
+    print("╚═════════════════════╝")
