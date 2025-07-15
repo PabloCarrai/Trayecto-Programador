@@ -5,10 +5,10 @@ el sexo de una persona, si es hombre mostrar una alerta diciendo
 */
 
 sexo = prompt("Ingrese su sexo ");
+
 if (sexo == "hombre") {
     alert("Soy macho")
-} else {
-    if (sexo == "mujer") {
-        alert("Soy una dama")
-    }
+}
+if (sexo == "mujer") {
+    console.log("Soy una dama")
 }
