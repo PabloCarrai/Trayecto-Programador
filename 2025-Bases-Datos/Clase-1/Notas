@@ -1,0 +1,31 @@
+#   Clase 1
+#   Bases de datos. 
+#   4/8/25
+
+Instructor Junior Valdivia. 
+Son 18 clases 
+
+Que es una base de datos?
+Archivador digital gigante y organizado
+Armario Archivador
+Donde se guardan documentos
+Hay una informacion guardada de manera organizada para su consulta. 
+Datos: hechos crudos, individuales, organizado sin procesar("juan",20,22.40)
+Informacion: Datos procesados, organizados y con contexto para darle significado
+Analogia:Ingrediente(datos) vs Pastel(informacion)
+333121231321    =>   Datos
+telefono-332234 =>   Informacion
+Conjunto de datos ordenados y o organizados para ser usados y accedidos. 
+Existen dos categorias, Las relacionales y las no relacionales. 
+Relacionales. Vamos con esta
+Las relacionales son las mas usadas/comunes. 
+Relacionales por tener algo en comun, algo que los unen. Una relacion
+Se organizan en forma de tablas(la informacion)
+Se utiliza un lenguaje de consulta(SQL)
+Las no relacionales, no tienen un elemento de union. No hay relaciones estrictas. 
+Son flexibles. Permite mas datos. Son desorganizados. 
+Se usa formato JSON
+Se usan en bancos tiendas en linea, redes sociales. Aplicaciones de mapa juegos en linea. 
+Gestores de bases de datos(SGBD)
+Se encargan de manejar/administrar/organizar informacion en bases de datos. 
+MySQL, SQLite
