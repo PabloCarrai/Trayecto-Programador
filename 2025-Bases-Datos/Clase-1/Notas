@@ -28,4 +28,7 @@ Se usa formato JSON
 Se usan en bancos tiendas en linea, redes sociales. Aplicaciones de mapa juegos en linea. 
 Gestores de bases de datos(SGBD)
 Se encargan de manejar/administrar/organizar informacion en bases de datos. 
-MySQL, SQLite
+MySQL, SQLite, MariaDB
+gestor de bases de datos
+sql server
+usamos wampserver
