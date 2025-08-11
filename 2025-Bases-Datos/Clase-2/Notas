@@ -1,3 +1,34 @@
 #   Clase 2
 #   Bases de datos. 
 #   11/8/25
+
+Tablas en bases de datos
+wampserver instalador de varias aplicaciones
+motor de bases de datos, php, servidor web
+gestor de bases de datos. 
+(Intentar instalar wampserver)
+Concepto de tablas(filas, columnas y campos)
+datos organizados en db de manera estructurado
+Una tabla: componente dentro de la db que se usa
+para almacenar los datos de manera estructurada
+tabla compuesto por fila y columnas y celdas. 
+Filas son registros, un unico registro. 
+La columna es un atributo. Es el campo de una fila
+La celda es la interseccion entre fila y columna
+Tipos de datos. 
+Se aplican a los campos(columnas.)
+Creacion de base de datos Practica. 
+Visualizar las db
+show databases;
+Crear base de datos
+create database nombre;
+Usar base de datos
+use nombredb;
+ver tablas;
+show tables;
+ver todas las tablas
+show tables;
+vizualizar tabla
+describe tabla;
+visualizar datos de una tabla
+select * from tabla;
