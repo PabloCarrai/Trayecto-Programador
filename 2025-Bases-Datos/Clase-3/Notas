@@ -1,0 +1,42 @@
+#   Clase-3
+#   18/8/25
+
+Entidades y atributos. 
+Una base de datos es un conjunto de datos
+organizados de forma ordenada con una estructura.
+
+Entidades y atributos. 
+Una entidad es cualquier cosa del mundo real/conceptual, 
+sobre la que queremos guardar informacion. 
+Un concepto(curso, factura, matricula)
+Un evento(una venta, un prestamo, una inscripcion)
+Una entidad sobre la que necesitamos guardar informacion. 
+Son tangibles o intangibles. 
+
+Un atributo es una propiedad o caracteristica del dato
+que queremos describir(entidad)
+Caracteristicas propias de algo
+
+Entidad(Objeto material inmaterial)
+Atributos(Caracteristicas de un objeto)
+
+tipos de atributos
+simples no se dividen precio, edad
+compuestos se dividen calle, ciudad, pais
+derivados calculados a traves de otro, edad
+
+clave primaria y clave foranea
+La clave primaria es un atributo, unico
+que sirve para identificar un registro
+dentro de una tabla. 
+en una lista de personas, cada persona
+tiene una clave primaria unica. 
+El dni es valido al ser algo unico. 
+No se puede usar un valor que pueda
+repetirse. Tiene que ser unico. 
+
+Clave foranea, es un atributo unico. 
+Que conecta dos entidades
+Es una clave primaria de otra Tabla
+
+El atributo en comun entre dos tablas
