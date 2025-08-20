@@ -40,3 +40,7 @@ Que conecta dos entidades
 Es una clave primaria de otra Tabla
 
 El atributo en comun entre dos tablas
+
+Cardinalidad:
+Se refiere al tipo de relacion que hay 
+en cuanto a cantidad. 
