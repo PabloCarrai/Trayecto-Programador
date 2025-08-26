@@ -1,0 +1,27 @@
+#   Clase-4
+#   25/8/25
+
+Relaciones entre entidad y cardinalidad en bases de datos. 
+#   Sitio para practicar sql
+sqlize.online
+
+Clave primaria, es un campo mas dentro de la tabla
+que se usa para relacionar tablas. Su caracteristica
+es que cada valor es unico. 
+
+relaciones entre tablas
+relacion uno a uno
+    una persona tiene un id y ese id pertenece a esa persona
+relacion uno a muchos
+    un padre puede tener muchos hijos pero un hijo no muchos padres(1 padre)
+relacion muchos a muchos(No se puede implementar clave foranea) Se usa una tabla auxiliar en estas relaciones
+    un est puede inscr en muchos cursos y muchos cursos pueden tener muchos est
+
+
+Entidad-Relacion
+Nos permite diseñar una db. 
+Sin importar sobre de que se trata
+Sin importar la entidad?
+Entidad, objeto sobre quien guardamos informacion. 
+relacion, es una asociacion entre dos o mas entidades
+
