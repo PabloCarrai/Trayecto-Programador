@@ -1,0 +1,17 @@
+#   Clase-5
+#   1/9/25
+
+Resumen.
+
+Modelo relacional. Tablas relacionadas entre si. 
+Entidad, objeto proveniente del mundo real. 
+Atributo, caracteristicas de una entidad. 
+Relacion, vinculo o asociacion entre entidades.
+Clave primaria y foranea. 
+Normalizacion, proceso de mejorar una db 
+Clave primaria, es atributo que identifica de forma unica un registro
+Clave foranea, es una clave primaria de otra tabla en una tabla
+Identificacion de relaciones y cardinalidad
+1 a 1
+1 a muchos
+muchos a muchos(suele necesita una tabla intermedia)
