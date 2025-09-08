@@ -17,3 +17,8 @@ al diseñar si veo que se puede mejorar
 y evitar repetir datos aunque tenga que 
 crear tablas auxiliares. Eso sirve
 
+Cuando hay tablas que salen de relacion de 
+muchos a muchos, esa tabla relacion 
+no necesita identificador unico. 
+
+El ejercicio 3 revisar si lo modifican hacerlo. 
