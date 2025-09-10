@@ -14,4 +14,7 @@ texto_color.pack()
 texto_fucion = Label(ventana, text="Texto divertido", bg="#000", fg="#fff")
 texto_fucion.pack()
 
+#   fuente y tamaño
+texto_modificado = Label(ventana, text="Texto grande", font=("Arial", 25))
+texto_modificado.pack()
 ventana.mainloop()
