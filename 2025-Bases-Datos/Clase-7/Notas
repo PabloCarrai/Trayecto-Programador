@@ -1,0 +1,35 @@
+#   Clase-7
+#   15/9/25
+
+corregir tp3
+pedidos tiene que tener otra tabla con 
+mucho a mucho de pedido y productos
+
+
+create database practica0915;
+use practica0915;
+
+create table productos(
+	id INT PRIMARY KEY,
+	nombre VARCHAR(50),
+	stock INT
+);
+
+CREATE TABLE clientes(
+	id_cliente INT PRIMARY KEY AUTO_INCREMENT,
+	nombre VARCHAR(25),
+	direccion VARCHAR(25),
+	telefono INT
+);
+
+select * from clientes;
+
+select id_cliente,nombre,direccion,telefono from clientes;
+
+create table pedidos(id_pedido int primary key,total int,fecha_compra datetime);
+
+create table detalle(id_pedido int,id_producto int);
+
+create table producto(id_producto int primary key,nombre varchar(10),precio int,stock int);
+
+alter table pedidos add id_cliente int after id_pedido;
