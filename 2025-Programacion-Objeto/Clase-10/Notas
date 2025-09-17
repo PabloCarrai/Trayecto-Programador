@@ -1,2 +1,5 @@
 #   Clase-10
 #   17/9/25
+
+Repaso
+grid_rowconfigure(valor,wheight=valor)
