@@ -1,0 +1,54 @@
+#   Clase-8
+#   22/9/25
+
+MyISAM no soporta las relaciones. 
+Se usa INNOdb(Es predeterminado. Diseñado para integridad y alta concurrencia)
+cuando creamos tablas que usen relaciones se usa INNOdb(todas)
+si no se especifica se crea con MyISAM
+
+creo la base de datos
+
+#   Mostrar db
+show databases;
+#   usar una db
+use dbname;
+#   muestra tablas en la db
+show tables;
+#   Ver info de la tabla
+describe nombretabla;
+#   Nos muestra la secuencia usada en la creacion de la tabla
+show create table nombretabla;
+
+
+#   Crear tabla desde sql
+create table productos(
+  id_producto int primary key auto_increment,
+  descripcion varchar(100),
+  precio decimal(10,2),
+  existencia int
+) engine=innodb;
+#   Otra forma definir primari key, este metodo es util cuando son varias llaves primarias
+create table productos(
+  id_producto int auto_increment,
+  descripcion varchar(100) not null,
+  precio decimal(10,2),
+  existencia int,
+  primary key(id_producto)
+) engine=innodb;
+
+create table pedidos(
+    id_pedido int auto_increment,
+    id_cliente int,
+    monto decimal(10,2),
+    fecha_registro date,
+    primary key(id_pedido),
+    foreign key(id_cliente) references clientes(id_cliente)
+)engine=innodb;
+
+create table detalles_pedidos(
+    id_pedido int,
+    id_producto int,
+    cantidad int,
+    foreign key(id_pedido) references pedidos(id_pedido),
+    foreign key(id_producto) references productos(id_producto)
+)engine=innodb;
