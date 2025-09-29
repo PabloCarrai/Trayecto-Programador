@@ -1,0 +1,31 @@
+#   Clase-9
+#   29/9/25
+
+Consultas SQL
+
+toda consulta arranca con 
+SELECT
+#   Seleccionamos columnas de una tabla
+select * from clientes;              #selecciono todas las columnas de tabla clientes
+#   de momento pedimos todos los registros, se puede pedir algunos
+select nombre, telefono from clientes; #pido nombre y telefono de clientes
+select * from clientes limit 4; #limitando cantidad de registros
+#   Los registros se ordenan por orden de ingreso. 
+select id_cliente,nombre,telefono from clientes limit 4;
+#   Otra forma de ordenar
+select id_cliente,nombre,telefono from clientes order by id_cliente desc ; #por defecto es por la primary key
+select id_cliente,nombre,telefono from clientes order by nombre desc ;
+select nombre, telefono from clientes order by nombre desc, telefono asc; # Aca ordeno por nombre y por telefono
+select * from productos;
+select campo from tabla where campo="papa";
+select descripcion,precio from productos where precio>1000 or precio <5000 order by precio asc;
+select descripcion,precio from productos where existencia >"B" order by existencia asc;
+select descripcion as nombre from productos;  # "AS" permite cambiar el nombre del campo
+#   evitar mostrar filas repetidas
+select distinct nombre,poblacion from tabla;    
+#   contar elementos
+select * from productos;
+select count(*) from productos; #   cuento todos los registros existentes
+select count(*) from productos where precio>2000; #con filtro cuento 
+select * from productos where descripcion like "%a"; # filto en campo descripcion contenga cualquier caracter y termine en a
+select * from productos where descripcion like "_a"; # es un solo caracter _
