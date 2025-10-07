@@ -1,0 +1,8 @@
+#   Clase-10
+#   6/10/25
+
+El profesor instalo un servidor vnc para administrar localmente los equipos en la sede. 
+A esos equipos le instalo rustdesk para que cada estudiante se conecte por rustdesk a esos equipos. 
+La idea es que laburen remotamente con rustdesk. 
+
+
