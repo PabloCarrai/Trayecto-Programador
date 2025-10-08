@@ -3,3 +3,18 @@
 
 cierre la tercer semana diciembre
 el martes 18 diciembre
+
+terminamos el 5 diciembre
+
+El proyecto tiene que tener un loguin
+La idea es usar bases de datos. Vemos si
+es lo mismo ir con mysql o con sqlite. 
+Probablemente se puede hacer el loguin
+independiente y llamar como modulo a la 
+aplicacion. Tambien vamos a separar la logica
+de la db. De una vamos con mysql. Y si llego
+y no es complejo lo terminamos con sqlite
+porque el tema es como llevar la aplicacion
+el dia del presencial. 
+
+Asignacion de tareas
