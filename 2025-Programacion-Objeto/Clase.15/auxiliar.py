@@ -12,10 +12,8 @@ class ventanaPrincipal:
         self.ventana.geometry(dimension)
         self.ventana.configure(background="red")
         tipografia = font.Font(family="Times New Roman", size=14, weight="bold")
-        texto = Label(self.ventana, text="Prueba", font=tipografia)
-        
+        texto = Label(self.ventana, text="Prueba", font=tipografia)        
         texto.grid(column=0, row=0)
-
         self.ventana.mainloop()
 
 
