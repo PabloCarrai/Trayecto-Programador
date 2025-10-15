@@ -1,0 +1,7 @@
+#   Clase-16
+#   14/10/25
+
+#   Devuelve lineas de cada consulta sql
+conexion.row_factory=mariadb.Row
+
+el proyecto se entrega el 3 de Diciembre
