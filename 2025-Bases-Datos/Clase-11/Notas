@@ -1,0 +1,31 @@
+#   Clase-11
+#   13/10/25
+
+sentencias join
+nos permite unir dos tablas
+
+tienda
+select * from clientes limit 5;
+select * from pedidos limit 5;
+
+idcliente en ambas tablas existen
+
+select * from clientes join pedidos; # es como unir dos tablas. 
+#   Cada registro de la primer tabla se repite con cada registro de la segunda tabla
+
+se usa un campo para mostrar la union entre tablas
+eso es los id
+
+select * from clientes join pedidos on clientes.id_cliente=pedidos.id_cliente;
+select * from clientes join pedidos on clientes.id_cliente=pedidos.id_cliente and cliente.id_cliente=3;
+select * from clientes join pedidos on clientes.id_cliente=pedidos.id_cliente and id_pedido=3;
+Con alias
+select nombre,direccion,monto,fecha_registro from clientes join pedidos as p on c.id_cliente=p.id_cliente and id_pedido=3;
+
+select
+clientes.nombre,clientes.direccion,clientes.telefono.pedidos.monto,pedidos.fecha_registro
+from
+tienda.clientes join tienda.pedidos
+on
+clientes.id_cliente=pedidos.id_clientes and pedidos.id_pedido=3
+

@@ -1,0 +1,38 @@
+#   Clase-12
+#   20/10/25
+
+
+Repaso de join
+
+/*
+Elegi todo de empleados uniendolo a departamento en donde DepartamentoId sea igual a Id
+*/
+select * from Empleados join Departamentos on DepartamentoId=Id;
+/*
+Aca solo traigo nombre de cada tabla
+*/
+select Empleados.nombre, Departamentos.nombre from Empleados join Departamentos on DepartamentoId=Id;
+/*
+Aca solo traigo nombre de cada tabla, con filtro en donde nombre departamento se Engineering
+*/
+select Empleados.nombre, Departamentos.nombre from Empleados join Departamentos on DepartamentoId=Id where Departamentos.nombre="Engineering";
+/*
+Aca solo traigo nombre de cada tabla, con filtro en id de departamento
+*/
+select Empleados.nombre, Departamentos.nombre from Empleados join Departamentos on DepartamentoId=Id where Departamentos.Id=33;
+/*
+Aca solo traigo nombre de cada tabla, con filtro en empleado nombre jones
+*/
+select Empleados.nombre, Departamentos.nombre from Empleados join Departamentos on DepartamentoId=Id where Empleados.nombre="Jones";
+select * from Empleados join Departamentos on DepartamentoId=Id where Empleados.nombre="Jones";
+/* 
+Vemos los que tienen coincidencia y sin coincidencia(left)= todos los registros aunque no tenga coincidencia con la otra tabla
+*/
+select * from Empleados left join Departamentos on DepartamentoId=Id;
+/*
+Aca prioriza la tabla a la izquierda Departamente, incluye a los que no tienen coincidencia
+*/
+select * from Empleados right join Departamentos on DepartamentoId=Id;
+update Empleados set DepartamentoId=31 where Nombre="Williams";
+select * from Empleados join Departamentos on DepartamentoId=Id order by Departamentos.Nombre asc;
+
