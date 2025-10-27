@@ -1,0 +1,16 @@
+01-
+select count(*) from clientes; 
+03-
+select * from productos where id_producto=25; 
+04-
+select count(*) from productos where precio<1000; 
+05-
+select count(*) from clientes where direccion like "Av.%";
+07-
+select count(*) from pedidos where YEAR(fecha_registro)=2025; 
+08-
+select nombre, stock from productos order by productos.stock ASC limit 1; 
+09-
+select count(*) from pedidos where monto>20000;
+10-
+select count(id_pedido) from pedidos where id_cliente=10;

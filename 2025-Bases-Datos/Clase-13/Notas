@@ -1,0 +1,29 @@
+#   Clase-13
+#   27/10/25
+
+En el curso hay en la clase 10
+practica consulta inner join
+La evaluacion final se basa en esto. 
+La idea es hacerla precencial. 
+
+select columnas
+from tabla1
+inner join tabla2
+on tabla1.columnas=tabla2.columna;
+
+select clientes.nombre, pedidos.total
+from clientes
+inner join pedidos
+on clientes.id_cliente=pedidos.id_cliente;
+
+usar Alias
+
+select c.nombre, p.total
+from clientes as c
+inner join pedidos as p
+on c.id_cliente=p.id_cliente;
+
+select c.nombre, p.total
+from clientes as c
+inner join pedidos as p on c.id_cliente=p.id_cliente
+where p.total>2500;
